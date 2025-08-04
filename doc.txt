@@ -1,6 +1,0 @@
-BREAKPOINTS
-max-width: 480px 
-min 481, max 767
-min 768, max 1024
-min 1025, max 1279
-min 1280px
