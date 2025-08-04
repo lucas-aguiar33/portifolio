@@ -1,10 +1,10 @@
-// INCIAR BIBLIOTECA DE ANIMAÇÕES
+// INICIAR BIBLIOTECA DE ANIMAÇÕES
 AOS.init();
 
 // BOTÕES
 const menuHamburguer = document.querySelector(".btn-menu");
 const btnCloseMenu = document.querySelector(".btn-close-menu");
-const botoesInfo = [...document.querySelectorAll(".btn-info")];
+const btnInfo = [...document.querySelectorAll(".btn-info")];
 const btnCloseModal = [...document.querySelectorAll(".btn-close-modal")];
 const btnForm = document.querySelector(".btn-enviar-form");
 
@@ -22,7 +22,7 @@ btnCloseMenu.addEventListener("click", ()=> {
     document.documentElement.style.overflowY = "auto";
 })
 
-botoesInfo.forEach(button => {
+btnInfo.forEach(button => {
     button.addEventListener("click", (evt)=>{
         const el = evt.target;
         const modalCard = el.parentNode.nextElementSibling;
