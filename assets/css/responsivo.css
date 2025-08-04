@@ -1,0 +1,224 @@
+@media screen and (min-width: 360px) {
+    .modal .modal-footer button {
+    padding:1.5rem;
+    border:none;
+    border-radius:5px;
+    cursor: pointer;
+    }
+
+    .modal-footer button a {
+        font-size:1.4rem;
+    }
+
+    .card-body .btn-info {
+        width:80%;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .modal .modal-footer {
+        justify-content: space-around;
+    }
+
+    .modal .modal-footer button {
+    font-size:1.4rem;
+}
+
+
+    .home-img {
+        width:30%;
+    }
+
+    .home-apresentacao h1 {
+        font-size: 4rem;
+        margin-inline: auto;
+    }
+
+    .home-curriculum a img {
+        width:50px;
+    }
+
+    .home-curriculum .btn-curriculum {
+        padding:1.5rem 4rem;
+    }
+
+    section h2 {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (min-width: 680px) {
+
+    .header .logo span {
+        font-size: 2.5rem;
+    }
+
+    .header .menu-hamburguer {
+        display: none;
+    }
+
+    .header .menu-lg {
+        display: flex;
+    }
+
+    .menu-lg a:hover{
+        background:none;
+    }
+
+    .contact .social-media {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap:1.5rem;
+        max-width:800px;
+        margin-inline:auto;
+        margin-top:6rem;
+    }
+
+    .social-media .input-group {
+        padding:1.5rem;
+    }
+
+    .projects .card {
+        width:80%;
+        margin-inline:auto;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .home-img {
+        width:25%;
+    }
+
+    .home-apresentacao h1 {
+        font-size:5rem;
+    }
+
+    .contact p {
+        font-size:1.8rem;
+        margin-bottom:2rem;
+    }
+}
+
+
+@media screen and (min-width: 920px) {
+    .header .logo span {
+        font-size: 3rem;
+    }
+
+    section h2 {
+        font-size:3.2rem;
+    }
+
+    .home .content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        'home-img home-apresentacao'
+        'home-img home-curriculum'
+        ;
+        padding:5rem  0;
+    }
+
+    .home-img {
+        width:50%;
+        display: flex;
+        align-items: center;
+    }
+
+    .skills .content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        'titulo titulo'
+        'frontend backend'
+        ;
+        gap:2rem;
+    }
+
+     .skills .card-skills h3 {
+        font-size:3rem;
+    }
+
+    .skills .card-skills {
+        height: 350px;
+        gap:1.3rem;
+    }
+
+     .projects .card {
+        width:65%;
+        margin-inline:auto;
+    }
+
+    .contact-header {
+        width:100%;
+    }
+
+    .contact .content{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        max-width:900px;
+        margin-inline: auto;
+    }
+
+    .contact .content form {
+        width:100%;
+    }
+    
+    .contact .social-media {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .social-media .input-group {
+        background: linear-gradient(-135deg, rgb(77, 134, 171),var(--secundaria));
+        transition:.5s;
+    }
+
+    .social-media .input-group:hover {
+         background: linear-gradient(90deg, var(--primaria) , var(--secundaria));
+         transition: .5s;
+    }
+}
+
+
+
+@media screen and (min-width: 1200px) {
+    .content {
+        max-width:1000px;
+        margin-inline:auto;
+    }
+
+    .home-apresentacao span {
+        font-size:2.5rem;
+    }
+
+    .home-apresentacao h1 {
+        max-width:100%;
+        font-size: 6rem;
+    }
+
+    .skills .card-skills h3 {
+        font-size:3rem;
+    }
+
+    .projects {
+        text-align: center;
+    }
+
+    .card.col-6 {
+        max-width: 480px;
+        display: inline-block;
+    }
+
+    .card.col-6 + .card.col-6 {
+        margin-left:2rem;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .content {
+        max-width:1000px;
+        margin-inline:auto;
+    }
+}

@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/responsivo.css">
+
+
+    <title>Lucas Aguiar - Portifiólio</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="content" data-aos="fade-down" data-aos-duration="1500">
+            <div class="logo">
+                <span>LA</span>
+            </div>
+
+            <div class="menu-hamburguer">
+                <button class="btn-menu">
+                    <img src="assets/images/icone-menu-hamburguer.png" alt="icone menu hamburguer">
+                </button>
+            </div>
+
+            <!-- SIDEBAR -->
+            <div class="sidebar hidden">
+                <div class="sidebar-header">
+                    <h3>Menu</h3>
+                    <button class="btn-close-menu">
+                        <img src="assets/images/button-close.png" alt="">
+                    </button>
+                </div>
+                <div class="sidebar-body">
+                    <nav class="menu">
+                        <a href="#">Home</a>
+                        <a href="#">Sobre mim</a>
+                        <a href="#">Projetos</a>
+                        <a href="#">Fale Comigo</a>
+                    </nav>
+                </div>
+            </div>
+
+
+            <!-- Menu -->
+            <nav class="menu menu-lg hidden">
+                <a href="#">Home</a>
+                <a href="#">Sobre mim</a>
+                <a href="#">Projetos</a>
+                <a href="#">Fale Comigo</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="home" data-aos="fade-down" data-aos-duration="1500">
+            <div class="content">
+                <div class="home-img">
+                    <img src="assets/images/eu-perfil.jpeg" alt="foto de perfil de Lucas Aguiar">
+                </div>
+
+                <div class="home-apresentacao">
+                    <span>Olá, eu sou Lucas Aguiar</span>
+                    <h1>Desenvolvedor Front-End</h1>
+                </div>
+
+                <div class="home-curriculum">
+                    <a href="https://www.linkedin.com/in/lucas-aguiar-oliveira" target="_blank">
+                        <img src="assets/images/icone-linkedin.png" alt="logo do linkedin">
+                    </a>
+                    <a href="https://www.github.com/lucas-aguiar33" target="_blank">
+                        <img src="assets/images/icone-github.png" alt="logo do github">
+                    </a>
+
+                    <button class="btn-curriculum">
+                        Baixar Currículo
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="about"  data-aos="fade-up" data-aos-duration="1500">
+            <div class="content">
+                <h2>Sobre mim</h2>
+                <p data-aos="fade-up" data-aos-delay="600"
+                data-aos-duration="1000">Estudante de Análise e Desenvolvimento de Sistemas e desenvolvedor com pouco mais de um ano de
+                    estudos na área da programação com foco principalmente no
+                    desenvolvimento front-end.</p>
+                <p data-aos="fade-up" data-aos-delay="500"
+                data-aos-duration="1000">Experiência com as tecnologias HTML, CSS, JavaScript e frameworks como React e Bootstrap5 para a
+                    criação
+                    de interfaces modernas e responsivas. Possuo também conhecimento da linguagem PHP, banco de dados
+                    relacional MySQL e versionamento de código com o Git.</p>
+                <p data-aos="fade-up" data-aos-delay="300"
+                data-aos-duration="1000">Meu objetivo é poder desenvolver soluções e sistemas completos que possam agregar no nosso dia a dia,
+                    para
+                    isso estou em constante busca de conhecimento e consolidando os que já possuo.</p>
+                <p data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">Considero-me uma pessoa de bom convívio social, dedicado e responsável. Sempre dou o meu melhor
+                    naquilo
+                    que me proponho a fazer e estou sempre disposto a aprender mais.</p>
+            </div>
+        </section>
+
+        <section class="skills"  data-aos="fade-up" data-aos-duration="1500">
+            <div class="content">
+                <h2>Habilidades</h2>
+                <div class="card-skills .frontend">
+                    <h3>Front-End</h3>
+                    <div class="tech">
+                        <img src="assets/images/icone-html.png" alt="logo do html">
+                        <span>HTML5</span>
+                    </div>
+                    
+                    <div class="tech">
+                        <img src="assets/images/icone-css.png" alt="logo do css">
+                        <span>CSS3</span>
+                    </div>
+                    
+                    <div class="tech">
+                        <img src="assets/images/icone-javascript.png" alt="logo do javascript">
+                        <span>JavaScript</span>
+                    </div>
+                    
+                    <div class="tech">
+                        <img src="assets/images/icone-react.png" alt="logo do react">
+                        <span>React</span>
+                    </div>
+                    
+                    <div class="tech">
+                        <img src="assets/images/icone-bootstrap.png" alt="logo do bootstrap">
+                        <span>Bootstrap5</span>
+                    </div>
+                </div>
+
+                <div class="card-skills .backend">
+                    <h3>Back-End</h3>
+                    <div class="tech">
+                        <img src="assets/images/icone-php.png" alt="logo do php">
+                        <span>PHP</span>
+                    </div>
+                    <div class="tech">
+                        <img src="assets/images/icone-mysql.png" alt="logo do mysql">
+                        <span>MySQL</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects"  data-aos="fade-up" data-aos-duration="1500">
+            <h2>Projetos</h2>
+            <div class="content">
+                <div class="card col-6" data-aos="flip-left"
+                data-aos-easing="ease-in-out"
+                data-aos-duration="800"
+                data-aos-offset="200">
+                    <div class="card-img">
+                        <img src="assets/images/projeto-academia.png"
+                            alt="Imagem da página incial do projeto Academia Vida Fitness">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Academia Vida Fitness</h4>
+                        <button class="btn-info">Clique pra saber mais</button>
+                    </div>
+
+                    <div class="modal hidden" id="modal-academia">
+                        <div class="modal-header">
+                            <h4>Academia Vida Fitness</h4>
+                            <button class="btn-close-modal">
+                                <img src="assets/images/button-close.png" alt="botão fechar">
+                            </button>
+                        </div>
+
+                        <div class="modal-body">
+                            <p>Projeto de uma landing page de uma academia fictícia. Desenvolvida com HTML, CSS e
+                                JavaScript.
+                            </p>
+                            <p>Desenvolvida no processo de consolidação do aprendizado das tecnologias principais do
+                                desenvolvimento front-end.</p>
+                        </div>
+
+                        <div class="modal-footer">
+                            <button class="btn-github"><a href="https://github.com/lucas-aguiar33/lp-academia-vidafitness" target="_blank">Ver código no GitHub</a></button>
+                            <button class="btn-project"><a href="https://lp-academia-vidafitness.vercel.app/" target="_blank">Ver Projeto</a></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card col-6" data-aos="flip-left"
+                data-aos-easing="ease-in-out"
+                data-aos-duration="800"
+                data-aos-offset="300">
+                    <div class="card-img">
+                        <img src="assets/images/projeto-portifolio.png"
+                            alt="Imagem da página incial do projeto Portifiólio de Lucas Aguiar">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Portifólio</h4>
+                        <button class="btn-info">Clique pra saber mais</button>
+                    </div>
+
+                    <div class="modal hidden" id="modal-academia">
+                        <div class="modal-header">
+                            <h4>Portifólio - Lucas Aguiar</h4>
+                            <button class="btn-close-modal">
+                                <img src="assets/images/button-close.png" alt="botão fechar">
+                            </button>
+                        </div>
+
+                        <div class="modal-body">
+                            <p>Projeto desenvolvido para que possam conhecer um pouco mais sobre mim e encontrar todos os meus principais projetos.</p>
+                            <p>Para o desenvolvimento desse projeto foram utilizadas as tecnologias HTML, CSS e JavaScript.</p>
+                        </div>
+
+                        <div class="modal-footer">
+                            <button class="btn-github"><a href="https://github.com/lucas-aguiar33/lp-academia-vidafitness" target="_blank">Ver código no GitHub</a></button>
+                            <button class="btn-project"><a href="https://lp-academia-vidafitness.vercel.app/" target="_blank">Ver Projeto</a></button>
+                        </div>
+                    </div>
+                </div>
+
+                
+
+        </section>
+
+        <section class="contact"  data-aos="fade-up" data-aos-duration="1500">
+            <div class="content">
+                <div class="contact-header">
+                    <h2>Informações de Contato</h2>
+                    <p>Preencha o formulário abaixo ou fale comigo através das redes socais.</p>
+                </div>
+                <form action="">
+                    <h3>Formulário de Contato</h3>
+                    <div class="input-group">
+                        <label for="f-name">Nome</label>
+                        <input type="text" name="name" id="f-name" placeholder="Seu nome completo">
+                    </div>
+                    
+                    <div class="input-group">
+                        <label for="f-email">Email</label>
+                        <input type="text" name="email" id="f-email" placeholder="Informe seu email">
+                    </div>
+                    <div class="input-group">
+                        <label for="f-phone">Telefone</label>
+                        <input type="tel" name="phone" id="f-phone" placeholder="(99) 9 9999-9999">
+                    </div>
+                    
+                    <div class="input-group">
+                        <textarea name="topic" id="f-topic" placeholder="Digite sua mensagem aqui"></textarea>
+                    </div>
+                    
+                    <input class="btn-enviar-form" type="button" value="Enviar " name="enviar-form">
+                </form>
+                
+                <div class="social-media">
+                    <div class="input-group" data-aos="fade-down"
+                    data-aos-duration="1500"
+                    data-aos-delay="1500">
+                        <img src="assets/images/icon-white-linkedin.png" alt="logo do linkedin">
+                        <a href="https://www.linkedin.com/in/lucas-aguiar-oliveira" target="_blank">Linkedin</a>
+                    </div>
+                    <div class="input-group" data-aos="fade-down"
+                    data-aos-duration="1500"
+                    data-aos-delay="1000">
+                        <img src="assets/images/icon-white-github.png" alt="logo do github">
+                        <a href="https://www.github.com/lucas-aguiar33" target="_blank">GitHub</a>
+                    </div>
+                    <div class="input-group" data-aos="fade-down"
+                    data-aos-duration="1500"
+                    data-aos-delay="500">
+                        <img src="assets/images/icon-white-instagram.png" alt="logo do instagram">
+                        <a href="https://www.instagram.com/lucasdeaguiar_" target="_blank">Instagram</a>
+                    </div>
+                    <div class="input-group"
+                    data-aos="fade-down"
+                    data-aos-duration="1500"
+                    data-aos-delay="100">
+                        <img src="assets/images/icon-white-email.png" alt="logo do email">
+                        <span>lucas.agui4r@gmail.com</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <span>LA, 2025</span>
+        <span>©Todos os Direitos Reservados</span>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="assets/js/script.js"></script>
+
+</body>
+
+</html>
