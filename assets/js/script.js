@@ -11,6 +11,17 @@ const btnForm = document.querySelector(".btn-enviar-form");
 // MENU
 const sidebar = document.querySelector(".sidebar");
 
+// LINKS DO MENU
+const links = [...document.querySelectorAll(".menu-link")];
+console.log(links)
+
+
+links.forEach(link=>{
+    link.addEventListener("click", ()=> {
+        sidebar.classList.add('hidden');
+        document.documentElement.style.overflowY = "auto";
+    })
+})
 
 menuHamburguer.addEventListener("click", ()=> {
     sidebar.classList.remove("hidden");
