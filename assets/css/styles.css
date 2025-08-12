@@ -61,6 +61,8 @@ button.btn-menu {
 
 .sidebar {
     background-color: whitesmoke;
+    background-color: #f6f6f6;
+
     position: absolute;
     width: 70%;
     height: 100vh;
@@ -80,7 +82,7 @@ button.btn-menu {
     width: 100%;
     height: 35px;
     border-bottom: 1px solid lightgray;
-    background-color: whitesmoke;
+    background-color: #f6f6f6
 }
 
 .sidebar-header h3 {
@@ -92,7 +94,7 @@ button.btn-menu {
 .sidebar-header .btn-close-menu {
     border: none;
     cursor: pointer;
-    background-color: white;
+    background-color: #f6f6f6;
 }
 
 .menu a {
